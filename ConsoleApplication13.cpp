@@ -55,7 +55,7 @@ int GetUserGrade(int& errorsNumber)
 
 int main()
 {
-	setlocale(0, "Russian");
+	setlocale(LC_ALL, "Russian");
 	srand(time(NULL));
 
 	static int errorsNumber = 0;
