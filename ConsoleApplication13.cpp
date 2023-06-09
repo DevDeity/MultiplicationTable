@@ -53,7 +53,7 @@ int GetUserGrade(int& errorsNumber)
 		return 2;
 }
 
-void main()
+int main()
 {
 	setlocale(0, "Russian");
 	srand(time(NULL));
@@ -71,6 +71,6 @@ void main()
 
 	cout << "Ваша оценка за работу = " << GetUserGrade(errorsNumber) << endl;
 
-	return;
+	return 0;
 }
 
